@@ -1,0 +1,18 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+  <App>
+    <!-- Your existing content goes here -->
+
+    <!-- Load XML Fragment -->
+    <Fragment fragmentName="yournamespace.fragments.xmlFragment" />
+
+    <!-- Load HTML Fragment -->
+    <HTML:Fragment fragmentName="yournamespace.fragments.htmlFragment" />
+
+    <!-- Register the Controller -->
+    <m:content>
+      <JS:Fragment fragmentName="yournamespace.fragments.jsFragment" />
+    </m:content>
+  </App>
+  <Button text="Register" press="onRegisterPress" />
+
+</mvc:View>

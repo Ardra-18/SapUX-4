@@ -1,0 +1,15 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+  <Dialog title="Registration" draggable="true">
+    <VBox>
+      <Input placeholder="Name" />
+      <Input placeholder="Email" />
+      <Input type="Password" placeholder="Password" />
+      <Input type="Password" placeholder="Confirm Password" />
+    </VBox>
+    <Toolbar>
+      <ToolbarSpacer />
+      <Button text="Cancel" press="onCancelPress" />
+      <Button text="Login" press="onLoginPress" />
+    </Toolbar>
+  </Dialog>
+</core:FragmentDefinition>
